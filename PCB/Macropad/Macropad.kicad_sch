@@ -1672,7 +1672,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 162.56 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -1755,7 +1755,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 162.56 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -1838,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 139.7 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -2167,7 +2167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 147.32 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -2250,7 +2250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 139.7 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -2497,7 +2497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 154.94 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -2580,7 +2580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 139.7 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -2663,7 +2663,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 154.94 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3027,7 +3027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 147.32 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -3110,7 +3110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 154.94 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -3603,7 +3603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 162.56 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -3686,7 +3686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
 			(at 147.32 86.36 90)
 			(hide yes)
 			(show_name no)
