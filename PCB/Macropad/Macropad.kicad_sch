@@ -1649,7 +1649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09d93a5e-893c-4817-94e5-548f6f7cd60f")
-		(property "Reference" "D15"
+		(property "Reference" "D12"
 			(at 162.41 99.264 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1714,7 +1714,7 @@
 		(instances
 			(project "Macropad"
 				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
-					(reference "D15")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3004,7 +3004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b277172e-8ca6-4e3f-9268-804bbe50b92e")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 147.17 99.264 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3069,7 +3069,7 @@
 		(instances
 			(project "Macropad"
 				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36aec94-7d52-4f9f-844b-44491fe9e280")
-		(property "Reference" "D13"
+		(property "Reference" "D11"
 			(at 154.79 99.264 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3152,7 +3152,7 @@
 		(instances
 			(project "Macropad"
 				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
-					(reference "D13")
+					(reference "D11")
 					(unit 1)
 				)
 			)
