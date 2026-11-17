@@ -5,6 +5,410 @@
 	(uuid "be4503a9-9748-4fd9-b639-aa5fcbc332a9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-WROOM-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1224,112 +1628,490 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USER:RF-433-Reciever-Electronics-Spices"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -13.208 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "433-Rec-ES"
+				(at 0 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RF-433-Reciever-Electronics-Spices_0_1"
+				(rectangle
+					(start -13.97 3.81)
+					(end 13.97 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RF-433-Reciever-Electronics-Spices_1_1"
+				(pin input line
+					(at -11.43 -5.08 90)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -6.35 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -5.08 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -5.08 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 -5.08 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 8.89 -5.08 90)
+					(length 2.54)
+					(name "DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 11.43 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "USER:RF-433-Transmitter-Electronic-Spices"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -4.572 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "433-Tran-ES"
+				(at 4.318 7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RF-433-Transmitter-Electronic-Spices_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 7.62 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RF-433-Transmitter-Electronic-Spices_1_1"
+				(pin input line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "ANT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 -2.54 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Check with actual component and check pin mappings"
+		(exclude_from_sim no)
+		(at 113.03 35.052 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aeaf7255-2793-462c-abfc-b16ea542ec86")
 	)
 	(junction
-		(at 147.32 74.93)
+		(at 165.1 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13f48c9e-7503-42ce-b9a4-5f63a89a72ab")
 	)
 	(junction
-		(at 147.32 102.87)
+		(at 165.1 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1af8b3b3-6be7-4d81-97a1-59b15bb1b89a")
 	)
 	(junction
-		(at 142.24 64.77)
+		(at 160.02 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "200ba1b4-c907-438d-b360-5317e7358dd6")
 	)
 	(junction
-		(at 149.86 64.77)
+		(at 167.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25104377-226a-4479-b8a4-567ec4e1158d")
 	)
 	(junction
-		(at 157.48 64.77)
+		(at 175.26 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f2fa5d8-6f7c-4e4c-a0f5-df6394f33117")
 	)
 	(junction
-		(at 162.56 102.87)
+		(at 180.34 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91bfb26e-e720-41e3-97c0-ea3fc47c764e")
 	)
 	(junction
-		(at 134.62 78.74)
+		(at 152.4 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ac076ee-b86b-431d-a71e-7d73bcdeac08")
 	)
 	(junction
-		(at 154.94 74.93)
+		(at 172.72 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3f866ea-fef0-4fa0-8a37-09b821d29a41")
 	)
 	(junction
-		(at 134.62 64.77)
+		(at 152.4 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1eae08c-39af-4915-be9c-c951edcd678f")
 	)
 	(junction
-		(at 162.56 88.9)
+		(at 180.34 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c582f1cc-b562-4287-9dcb-58eacd35b2c0")
 	)
 	(junction
-		(at 142.24 78.74)
+		(at 160.02 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2a394cf-2977-4d3b-9f09-c8d3ef4a480c")
 	)
 	(junction
-		(at 147.32 88.9)
+		(at 165.1 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3a86b56-9b69-4235-baa8-4a6a58992f41")
 	)
 	(junction
-		(at 154.94 102.87)
+		(at 172.72 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d927cd6c-5aa6-419d-bacf-2cd6648bbe97")
 	)
 	(junction
-		(at 154.94 88.9)
+		(at 172.72 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc2a0699-c374-43cf-8d96-e419fef97fa6")
 	)
 	(junction
-		(at 149.86 78.74)
+		(at 167.64 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e12824fd-1bc5-4cde-8eec-a22a59788b3c")
 	)
 	(junction
-		(at 162.56 74.93)
+		(at 180.34 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5509350-f708-489a-a6e6-48a0376092f4")
 	)
 	(junction
-		(at 157.48 78.74)
+		(at 175.26 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f943ff00-ebbf-4237-b694-9cef50a8e686")
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 154.94 88.9)
+			(xy 165.1 97.79) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +2121,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 74.93) (xy 147.32 74.93)
+			(xy 157.48 83.82) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 102.87) (xy 147.32 102.87)
+			(xy 157.48 111.76) (xy 165.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +2141,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 102.87) (xy 168.91 102.87)
+			(xy 180.34 111.76) (xy 186.69 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 102.87) (xy 154.94 102.87)
+			(xy 165.1 111.76) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 74.93) (xy 168.91 74.93)
+			(xy 180.34 83.82) (xy 186.69 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +2171,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 64.77) (xy 134.62 78.74)
+			(xy 152.4 73.66) (xy 152.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 154.94 74.93)
+			(xy 165.1 83.82) (xy 172.72 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +2191,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 134.62 92.71)
+			(xy 152.4 87.63) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 59.69) (xy 149.86 64.77)
+			(xy 167.64 68.58) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +2211,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 149.86 92.71)
+			(xy 167.64 87.63) (xy 167.64 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 88.9) (xy 147.32 88.9)
+			(xy 157.48 97.79) (xy 165.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +2231,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 157.48 64.77)
+			(xy 175.26 68.58) (xy 175.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +2241,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 78.74) (xy 157.48 92.71)
+			(xy 175.26 87.63) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +2251,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 64.77) (xy 149.86 78.74)
+			(xy 167.64 73.66) (xy 167.64 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +2261,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 142.24 78.74)
+			(xy 160.02 73.66) (xy 160.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 59.69) (xy 142.24 64.77)
+			(xy 160.02 68.58) (xy 160.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +2281,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 88.9) (xy 168.91 88.9)
+			(xy 180.34 97.79) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 142.24 92.71)
+			(xy 160.02 87.63) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 157.48 78.74)
+			(xy 175.26 73.66) (xy 175.26 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +2311,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 59.69) (xy 134.62 64.77)
+			(xy 152.4 68.58) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +2321,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 162.56 102.87)
+			(xy 172.72 111.76) (xy 180.34 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 74.93) (xy 162.56 74.93)
+			(xy 172.72 83.82) (xy 180.34 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +2341,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 88.9) (xy 162.56 88.9)
+			(xy 172.72 97.79) (xy 180.34 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +2350,7 @@
 		(uuid "f5c7d80c-685d-48a4-be18-472bb8b60a21")
 	)
 	(label "Row 0"
-		(at 168.91 74.93 0)
+		(at 186.69 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1578,7 +2360,7 @@
 		(uuid "073ef6ee-ceb3-4a46-b867-f990e4c8e9e6")
 	)
 	(label "Column 2"
-		(at 149.86 59.69 90)
+		(at 167.64 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1588,7 +2370,7 @@
 		(uuid "087c0eb8-811c-4817-9e7a-559e3c02dd4f")
 	)
 	(label "Column 3"
-		(at 157.48 59.69 90)
+		(at 175.26 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1598,7 +2380,7 @@
 		(uuid "09663395-5acf-49d3-a01f-97846e2d6aa8")
 	)
 	(label "Column 1"
-		(at 142.24 59.69 90)
+		(at 160.02 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1608,7 +2390,7 @@
 		(uuid "3362f19d-4a81-4900-b5bb-7a4736fa2005")
 	)
 	(label "Column 0"
-		(at 134.62 59.69 90)
+		(at 152.4 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,7 +2400,7 @@
 		(uuid "40085771-e0d8-4741-844c-52b076864bbc")
 	)
 	(label "Row 2"
-		(at 168.91 102.87 0)
+		(at 186.69 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1628,7 +2410,7 @@
 		(uuid "a29be6a2-36af-4e1b-84ed-6a0357fffd96")
 	)
 	(label "Row 1"
-		(at 168.91 88.9 0)
+		(at 186.69 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1639,7 +2421,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 162.56 100.33 0)
+		(at 180.34 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1650,7 +2432,7 @@
 		(fields_autoplaced yes)
 		(uuid "09d93a5e-893c-4817-94e5-548f6f7cd60f")
 		(property "Reference" "D12"
-			(at 162.41 99.264 0)
+			(at 180.19 108.154 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1663,7 +2445,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 165.1 100.33 90)
+			(at 182.88 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1673,7 +2455,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 162.56 100.33 90)
+			(at 180.34 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1684,7 +2466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 100.33 90)
+			(at 180.34 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1695,7 +2477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 100.33 90)
+			(at 184.15 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1722,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 162.56 86.36 0)
+		(at 180.34 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1733,7 +2515,7 @@
 		(fields_autoplaced yes)
 		(uuid "09fe0799-0480-4901-b18e-9a2f7ab4f634")
 		(property "Reference" "D8"
-			(at 162.41 85.294 0)
+			(at 180.19 94.184 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1746,7 +2528,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 165.1 86.36 90)
+			(at 182.88 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1756,7 +2538,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 162.56 86.36 90)
+			(at 180.34 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1767,7 +2549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 86.36 90)
+			(at 180.34 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1778,7 +2560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 86.36 90)
+			(at 184.15 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +2587,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 139.7 72.39 0)
+		(at 157.48 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1816,7 +2598,7 @@
 		(fields_autoplaced yes)
 		(uuid "10bd637a-36b9-40ff-b7b7-a183fe6f091e")
 		(property "Reference" "D1"
-			(at 139.55 71.324 0)
+			(at 157.33 80.214 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1829,7 +2611,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 142.24 72.39 90)
+			(at 160.02 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1839,7 +2621,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 139.7 72.39 90)
+			(at 157.48 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1850,7 +2632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 72.39 90)
+			(at 157.48 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1861,7 +2643,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 72.39 90)
+			(at 161.29 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1888,7 +2670,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 67.31 0)
+		(at 162.56 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1899,7 +2681,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e4f37a5-dae9-4af0-b5f1-21140a06dfba")
 		(property "Reference" "S2"
-			(at 144.78 67.31 0)
+			(at 162.56 76.2 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1911,7 +2693,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 144.78 71.12 0)
+			(at 162.56 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1921,7 +2703,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 144.78 67.31 0)
+			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +2714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 69.088 0)
+			(at 160.02 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1943,7 +2725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 67.31 0)
+			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1970,7 +2752,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 95.25 0)
+		(at 162.56 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1981,7 +2763,7 @@
 		(fields_autoplaced yes)
 		(uuid "32f5bd4c-85b3-4cb8-9442-e2214d999be3")
 		(property "Reference" "S10"
-			(at 144.78 95.25 0)
+			(at 162.56 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1993,7 +2775,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 144.78 99.06 0)
+			(at 162.56 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2003,7 +2785,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 144.78 95.25 0)
+			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,7 +2796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 97.028 0)
+			(at 160.02 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,7 +2807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 95.25 0)
+			(at 162.56 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2051,8 +2833,194 @@
 		)
 	)
 	(symbol
+		(lib_id "USER:RF-433-Reciever-Electronics-Spices")
+		(at 101.6 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41b27833-b02c-49fe-97e3-c3855164804e")
+		(property "Reference" "U3"
+			(at 117.856 43.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "433-Rec-ES"
+			(at 101.6 40.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "be5f8baa-e86d-49e3-ab49-2764c1c887d9")
+		)
+		(pin ""
+			(uuid "f96d8b34-9a18-435a-9f83-b275261aabba")
+		)
+		(pin ""
+			(uuid "9bb1a8d6-4f38-4314-b2c0-fe24b5e650de")
+		)
+		(pin ""
+			(uuid "3797997b-c0ac-43c7-a5e1-89e8e477eae8")
+		)
+		(pin ""
+			(uuid "5066422d-2b25-4bc1-b99b-88c5b25cf986")
+		)
+		(pin ""
+			(uuid "a940935b-c928-44ee-a0c4-0cbc9dca4f39")
+		)
+		(pin ""
+			(uuid "01388c0b-77d9-40e8-8638-b0b57f9d739b")
+		)
+		(pin ""
+			(uuid "d6bea595-f5dd-4bb6-a10a-489471d86ce8")
+		)
+		(instances
+			(project "Macropad"
+				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 114.3 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58e1dfc2-cc5c-4371-a553-6a2870f666dd")
+		(property "Reference" "SW1"
+			(at 114.3 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 114.3 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 78.486 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 114.3 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "b319c4e1-d41e-49c2-8569-df0cc1d52000")
+		)
+		(pin "S1"
+			(uuid "48dfaa7a-e758-482f-88fc-b1a71101af8a")
+		)
+		(pin "B"
+			(uuid "4cda80cd-1086-48e2-a066-b5a1082f18fc")
+		)
+		(pin "S2"
+			(uuid "e5e8fdf7-12f6-4418-a334-55d337a3c948")
+		)
+		(pin "C"
+			(uuid "79c5548f-f236-4740-802b-a49a3ea5e0f0")
+		)
+		(instances
+			(project "Macropad"
+				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 152.4 67.31 0)
+		(at 170.18 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2063,7 +3031,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ab26d8-7267-4fea-a40c-0db62df2aab6")
 		(property "Reference" "S3"
-			(at 152.4 67.31 0)
+			(at 170.18 76.2 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2075,7 +3043,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 152.4 71.12 0)
+			(at 170.18 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2085,7 +3053,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 152.4 67.31 0)
+			(at 170.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2096,7 +3064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 69.088 0)
+			(at 167.64 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +3075,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 67.31 0)
+			(at 170.18 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2134,7 +3102,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 147.32 72.39 0)
+		(at 165.1 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2145,7 +3113,7 @@
 		(fields_autoplaced yes)
 		(uuid "6958f9bc-451b-4363-b5d4-44f9538688c3")
 		(property "Reference" "D2"
-			(at 147.17 71.324 0)
+			(at 164.95 80.214 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2158,7 +3126,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 72.39 90)
+			(at 167.64 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2168,7 +3136,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 147.32 72.39 90)
+			(at 165.1 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2179,7 +3147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 72.39 90)
+			(at 165.1 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +3158,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 72.39 90)
+			(at 168.91 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2217,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 139.7 100.33 0)
+		(at 157.48 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2228,7 +3196,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c790e15-4f42-4e1b-8886-a623ff4f9424")
 		(property "Reference" "D9"
-			(at 139.55 99.264 0)
+			(at 157.33 108.154 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2241,7 +3209,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 142.24 100.33 90)
+			(at 160.02 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2251,7 +3219,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 139.7 100.33 90)
+			(at 157.48 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2262,7 +3230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 100.33 90)
+			(at 157.48 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2273,7 +3241,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 100.33 90)
+			(at 161.29 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2300,7 +3268,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 152.4 95.25 0)
+		(at 170.18 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2311,7 +3279,7 @@
 		(fields_autoplaced yes)
 		(uuid "73dc5e96-e2d6-4909-a3aa-6e2166a6d772")
 		(property "Reference" "S11"
-			(at 152.4 95.25 0)
+			(at 170.18 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2323,7 +3291,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 152.4 99.06 0)
+			(at 170.18 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2333,7 +3301,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 152.4 95.25 0)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2344,7 +3312,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 97.028 0)
+			(at 167.64 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2355,7 +3323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 95.25 0)
+			(at 170.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2382,7 +3350,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 95.25 0)
+		(at 177.8 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2393,7 +3361,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ba2b2e7-d236-4e14-8baf-299b5076157f")
 		(property "Reference" "S12"
-			(at 160.02 95.25 0)
+			(at 177.8 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2405,7 +3373,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 160.02 99.06 0)
+			(at 177.8 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2415,7 +3383,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 160.02 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +3394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 97.028 0)
+			(at 175.26 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2437,7 +3405,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 95.25 0)
+			(at 177.8 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2464,7 +3432,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 154.94 86.36 0)
+		(at 172.72 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2475,7 +3443,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c0fc981-a8f7-4fc3-a4b7-d9d421863f54")
 		(property "Reference" "D7"
-			(at 154.79 85.294 0)
+			(at 172.57 94.184 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2488,7 +3456,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 157.48 86.36 90)
+			(at 175.26 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2498,7 +3466,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 154.94 86.36 90)
+			(at 172.72 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +3477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 86.36 90)
+			(at 172.72 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2520,7 +3488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 86.36 90)
+			(at 176.53 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2547,7 +3515,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 139.7 86.36 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2558,7 +3526,7 @@
 		(fields_autoplaced yes)
 		(uuid "80cc6829-79f0-471c-bad8-9f32d450878a")
 		(property "Reference" "D5"
-			(at 139.55 85.294 0)
+			(at 157.33 94.184 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2571,7 +3539,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 142.24 86.36 90)
+			(at 160.02 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2581,7 +3549,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 139.7 86.36 90)
+			(at 157.48 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2592,7 +3560,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 86.36 90)
+			(at 157.48 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +3571,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 86.36 90)
+			(at 161.29 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,7 +3598,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 154.94 72.39 0)
+		(at 172.72 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2641,7 +3609,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d0ce401-4f9a-43b4-99aa-e82de0d5c9aa")
 		(property "Reference" "D3"
-			(at 154.79 71.324 0)
+			(at 172.57 80.214 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2654,7 +3622,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 157.48 72.39 90)
+			(at 175.26 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2664,7 +3632,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 154.94 72.39 90)
+			(at 172.72 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2675,7 +3643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 72.39 90)
+			(at 172.72 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2686,7 +3654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 72.39 90)
+			(at 176.53 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2713,7 +3681,7 @@
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-S3-WROOM-1")
-		(at 80.01 74.93 0)
+		(at 60.96 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2724,7 +3692,7 @@
 		(fields_autoplaced yes)
 		(uuid "953791d9-4ee2-4225-84b9-4d227a4617f9")
 		(property "Reference" "U1"
-			(at 82.1533 44.45 0)
+			(at 63.1033 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2735,7 +3703,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3-WROOM-1"
-			(at 82.1533 46.99 0)
+			(at 63.1033 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2746,7 +3714,7 @@
 			)
 		)
 		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
-			(at 80.01 72.39 0)
+			(at 60.96 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,7 +3725,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
-			(at 80.01 74.93 0)
+			(at 60.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +3736,7 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
-			(at 80.01 74.93 0)
+			(at 60.96 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2912,7 +3880,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 81.28 0)
+		(at 177.8 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2923,7 +3891,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae158b23-810e-4a94-afab-aa94b04a2d6f")
 		(property "Reference" "S8"
-			(at 160.02 81.28 0)
+			(at 177.8 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2935,7 +3903,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 160.02 85.09 0)
+			(at 177.8 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2945,7 +3913,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 160.02 81.28 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2956,7 +3924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 83.058 0)
+			(at 175.26 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2967,7 +3935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 81.28 0)
+			(at 177.8 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2994,7 +3962,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 147.32 100.33 0)
+		(at 165.1 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3005,7 +3973,7 @@
 		(fields_autoplaced yes)
 		(uuid "b277172e-8ca6-4e3f-9268-804bbe50b92e")
 		(property "Reference" "D10"
-			(at 147.17 99.264 0)
+			(at 164.95 108.154 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3018,7 +3986,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 100.33 90)
+			(at 167.64 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3028,7 +3996,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 147.32 100.33 90)
+			(at 165.1 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3039,7 +4007,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 100.33 90)
+			(at 165.1 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +4018,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 100.33 90)
+			(at 168.91 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +4045,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 154.94 100.33 0)
+		(at 172.72 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3088,7 +4056,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36aec94-7d52-4f9f-844b-44491fe9e280")
 		(property "Reference" "D11"
-			(at 154.79 99.264 0)
+			(at 172.57 108.154 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3101,7 +4069,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 157.48 100.33 90)
+			(at 175.26 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3111,7 +4079,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 154.94 100.33 90)
+			(at 172.72 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3122,7 +4090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 100.33 90)
+			(at 172.72 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3133,7 +4101,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 100.33 90)
+			(at 176.53 109.22 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3160,7 +4128,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 137.16 95.25 0)
+		(at 154.94 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3171,7 +4139,7 @@
 		(fields_autoplaced yes)
 		(uuid "bc11284e-c709-41f2-885e-3be46ec43014")
 		(property "Reference" "S9"
-			(at 137.16 95.25 0)
+			(at 154.94 104.14 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3183,7 +4151,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 137.16 99.06 0)
+			(at 154.94 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3193,7 +4161,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 137.16 95.25 0)
+			(at 154.94 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3204,7 +4172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 97.028 0)
+			(at 152.4 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3215,7 +4183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 95.25 0)
+			(at 154.94 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,7 +4210,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 144.78 81.28 0)
+		(at 162.56 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3253,7 +4221,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd152c47-45e1-46c0-a41c-3395b990c220")
 		(property "Reference" "S6"
-			(at 144.78 81.28 0)
+			(at 162.56 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3265,7 +4233,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 144.78 85.09 0)
+			(at 162.56 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3275,7 +4243,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 144.78 81.28 0)
+			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3286,7 +4254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 83.058 0)
+			(at 160.02 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3297,7 +4265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 81.28 0)
+			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3324,7 +4292,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 160.02 67.31 0)
+		(at 177.8 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3335,7 +4303,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4caa26f-d31b-4145-a36f-6e455c2f0ce2")
 		(property "Reference" "S4"
-			(at 160.02 67.31 0)
+			(at 177.8 76.2 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3347,7 +4315,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 160.02 71.12 0)
+			(at 177.8 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3357,7 +4325,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 160.02 67.31 0)
+			(at 177.8 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3368,7 +4336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 69.088 0)
+			(at 175.26 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3379,7 +4347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 67.31 0)
+			(at 177.8 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3406,7 +4374,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 137.16 67.31 0)
+		(at 154.94 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3417,7 +4385,7 @@
 		(fields_autoplaced yes)
 		(uuid "c63dcaa4-76b0-4d8c-83e0-318f91a4ea02")
 		(property "Reference" "S1"
-			(at 137.16 67.31 0)
+			(at 154.94 76.2 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3429,7 +4397,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 137.16 71.12 0)
+			(at 154.94 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3439,7 +4407,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 137.16 67.31 0)
+			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3450,7 +4418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 69.088 0)
+			(at 152.4 77.978 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3461,7 +4429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 67.31 0)
+			(at 154.94 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3487,8 +4455,95 @@
 		)
 	)
 	(symbol
+		(lib_id "USER:RF-433-Transmitter-Electronic-Spices")
+		(at 128.27 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db79f814-c40b-4810-986f-2bbed757583e")
+		(property "Reference" "U2"
+			(at 137.16 43.8149 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "433-Tran-ES"
+			(at 122.936 39.878 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5ef5d741-c261-4415-ab20-da5ad3a5b34f")
+		)
+		(pin ""
+			(uuid "bb5e38d8-8aa6-44ca-9c75-7923190c4004")
+		)
+		(pin ""
+			(uuid "5b906674-19a7-4ca8-b765-0b0f5376ab04")
+		)
+		(pin ""
+			(uuid "d3962d10-3d1a-4fee-ab64-20a91309570a")
+		)
+		(instances
+			(project "Macropad"
+				(path "/be4503a9-9748-4fd9-b639-aa5fcbc332a9"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 137.16 81.28 0)
+		(at 154.94 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3499,7 +4554,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2b75cfe-b78a-431c-b356-c61c6c895e57")
 		(property "Reference" "S5"
-			(at 137.16 81.28 0)
+			(at 154.94 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3511,7 +4566,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 137.16 85.09 0)
+			(at 154.94 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3521,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 137.16 81.28 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3532,7 +4587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 83.058 0)
+			(at 152.4 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3543,7 +4598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 81.28 0)
+			(at 154.94 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3570,7 +4625,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 162.56 72.39 0)
+		(at 180.34 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3581,7 +4636,7 @@
 		(fields_autoplaced yes)
 		(uuid "eefd3e97-1bb6-46e7-9f05-353f12d10ef5")
 		(property "Reference" "D4"
-			(at 162.41 71.324 0)
+			(at 180.19 80.214 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3594,7 +4649,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 165.1 72.39 90)
+			(at 182.88 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3604,7 +4659,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 162.56 72.39 90)
+			(at 180.34 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3615,7 +4670,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 72.39 90)
+			(at 180.34 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3626,7 +4681,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 72.39 90)
+			(at 184.15 81.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3653,7 +4708,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
-		(at 147.32 86.36 0)
+		(at 165.1 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3664,7 +4719,7 @@
 		(fields_autoplaced yes)
 		(uuid "f07b0355-eec7-425a-ae18-f569ee25a3d4")
 		(property "Reference" "D6"
-			(at 147.17 85.294 0)
+			(at 164.95 94.184 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3677,7 +4732,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 149.86 86.36 90)
+			(at 167.64 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3687,7 +4742,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:Diode_DO-35"
-			(at 147.32 86.36 90)
+			(at 165.1 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +4753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 86.36 90)
+			(at 165.1 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3709,7 +4764,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 86.36 90)
+			(at 168.91 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3736,7 +4791,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Keyswitch")
-		(at 152.4 81.28 0)
+		(at 170.18 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3747,7 +4802,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa567aeb-365a-43b5-af32-24efb34d84db")
 		(property "Reference" "S7"
-			(at 152.4 81.28 0)
+			(at 170.18 90.17 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3759,7 +4814,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 152.4 85.09 0)
+			(at 170.18 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3769,7 +4824,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Hotswap:Hotswap_Choc_V1"
-			(at 152.4 81.28 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,7 +4835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 83.058 0)
+			(at 167.64 91.948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3791,7 +4846,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 81.28 0)
+			(at 170.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
