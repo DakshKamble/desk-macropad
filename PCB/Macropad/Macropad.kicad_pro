@@ -663,15 +663,24 @@
         "filename": "Macropad.kicad_sch",
         "name": "Macropad",
         "uuid": "be4503a9-9748-4fd9-b639-aa5fcbc332a9"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "269d9c85-c0f3-4f26-9fbf-0d0dac0d957e"
       }
     ],
-    "used_designators": "D1-16,S1-16,SW1,U1-3",
+    "used_designators": "#PWR1-14,C1-5,COUT1,D1-16,IC1,J1-4,R1-3,RProg1-2,S1-16,SW1-2,U1-5",
     "variants": []
   },
   "sheets": [
     [
       "be4503a9-9748-4fd9-b639-aa5fcbc332a9",
       "Macropad"
+    ],
+    [
+      "269d9c85-c0f3-4f26-9fbf-0d0dac0d957e",
+      "Power"
     ]
   ],
   "text_variables": {},

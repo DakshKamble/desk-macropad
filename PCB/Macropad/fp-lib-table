@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "USER") (type "KiCad") (uri "${KIPRJMOD}/USER.pretty") (options "") (descr ""))
+	(lib (name "USER") (type "KiCad") (uri "/Users/daksh/Documents/KICAD_LIBS/USER.pretty") (options "") (descr ""))
+)
