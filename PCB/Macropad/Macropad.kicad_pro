@@ -615,12 +615,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -670,7 +700,7 @@
         "uuid": "269d9c85-c0f3-4f26-9fbf-0d0dac0d957e"
       }
     ],
-    "used_designators": "#PWR1-14,#PWR20-28,C1-5,C7-11,COUT1,D1-17,IC1,J1-4,J8-10,L1-2,R1-3,R10-17,RProg1-2,S1-16,SW1-2,U1-5,U7",
+    "used_designators": "#PWR1-16,#PWR20-36,C1-5,C7-11,CIN1,COUT1,D1-17,IC1,J1-4,J8-10,L1-3,R1-3,R10-17,RProg1-2,S1-16,SW1-2,U1-5,U7-8",
     "variants": []
   },
   "sheets": [

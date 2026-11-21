@@ -2,4 +2,5 @@
 	(version 7)
 	(lib (name "USER2") (type "KiCad") (uri "${KIPRJMOD}/USER.pretty") (options "") (descr ""))
 	(lib (name "USER") (type "KiCad") (uri "/Users/daksh/Documents/KICAD_LIBS/USER.pretty") (options "") (descr ""))
+	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
 )
